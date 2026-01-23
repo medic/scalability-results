@@ -1,0 +1,15 @@
+Error getting replication log:  Error
+    at new CustomPouchError (/cht/cht-core/tests/scalability/node_modules/pouchdb-errors/lib/index.js:66:21)
+    at Object.createError (/cht/cht-core/tests/scalability/node_modules/pouchdb-errors/lib/index.js:75:10)
+    at /cht/cht-core/tests/scalability/node_modules/pouchdb-adapter-leveldb-core/lib/index.js:1416:32
+    at /cht/cht-core/tests/scalability/node_modules/sublevel-pouchdb/lib/index.js:243:9
+    at /cht/cht-core/tests/scalability/node_modules/sublevel-pouchdb/lib/index.js:74:13
+    at Immediate.callNext [as _onImmediate] (/cht/cht-core/tests/scalability/node_modules/memdown/memdown.js:164:7)
+    at process.processImmediate (node:internal/timers:485:21) {
+  status: 404,
+  name: 'not_found',
+  message: 'missing',
+  error: true
+}
+(node:5099) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
