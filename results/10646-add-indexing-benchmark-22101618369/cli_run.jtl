@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1771337663740,10415,sync,0,OK,Thread Group 1-1,text,true,,0,0,10,10,null,0,0,0
+1771337664334,11597,sync,0,OK,Thread Group 1-7,text,true,,0,0,9,9,null,0,0,0
+1771337664031,13518,sync,0,OK,Thread Group 1-4,text,true,,0,0,8,8,null,0,0,0
+1771337663832,13721,sync,0,OK,Thread Group 1-2,text,true,,0,0,7,7,null,0,0,0
+1771337664531,13023,sync,0,OK,Thread Group 1-9,text,true,,0,0,6,6,null,0,0,0
+1771337663933,13631,sync,0,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1771337664130,13801,sync,0,OK,Thread Group 1-5,text,true,,0,0,4,4,null,0,0,0
+1771337664431,13632,sync,0,OK,Thread Group 1-8,text,true,,0,0,3,3,null,0,0,0
+1771337664630,13441,sync,0,OK,Thread Group 1-10,text,true,,0,0,2,2,null,0,0,0
+1771337664231,13845,sync,0,OK,Thread Group 1-6,text,true,,0,0,1,1,null,0,0,0
