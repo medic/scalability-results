@@ -9,79 +9,79 @@ Database doc count: 903030
 ## _changes benchmark 
 | limit| since| include_docs| seq_interval| keys| Duration (ms) |
 |--|--|--|--|--|--|
-| 100 |  |  |  |  | 32 |
-| 1000 |  |  |  |  | 145 |
-| 10000 |  |  |  |  | 953 |
-| 100 |  | true |  |  | 46 |
-| 1000 |  | true |  |  | 163 |
-| 10000 |  | true |  |  | 1516 |
-| 100 |  |  | 100 |  | 44 |
+| 100 |  |  |  |  | 38 |
+| 1000 |  |  |  |  | 154 |
+| 10000 |  |  |  |  | 1096 |
+| 100 |  | true |  |  | 60 |
+| 1000 |  | true |  |  | 169 |
+| 10000 |  | true |  |  | 1709 |
+| 100 |  |  | 100 |  | 37 |
 | 1000 |  |  | 1000 |  | 38 |
-| 10000 |  |  | 10000 |  | 181 |
-| 100 | Mid Sequence |  |  |  | 37 |
-| 1000 | Mid Sequence |  |  |  | 107 |
-| 10000 | Mid Sequence |  |  |  | 1013 |
-| 100 | Mid Sequence | true |  |  | 39 |
-| 1000 | Mid Sequence | true |  |  | 177 |
-| 10000 | Mid Sequence | true |  |  | 1376 |
-| 100 | Mid Sequence |  | 100 |  | 37 |
-| 1000 | Mid Sequence |  | 1000 |  | 36 |
-| 10000 | Mid Sequence |  | 10000 |  | 162 |
-| 10000 |  |  |  | true | 1830 |
-| 10000 |  | true |  | true | 2309 |
-| 10000 |  |  | 10000 | true | 1093 |
+| 10000 |  |  | 10000 |  | 204 |
+| 100 | Mid Sequence |  |  |  | 33 |
+| 1000 | Mid Sequence |  |  |  | 117 |
+| 10000 | Mid Sequence |  |  |  | 1024 |
+| 100 | Mid Sequence | true |  |  | 65 |
+| 1000 | Mid Sequence | true |  |  | 170 |
+| 10000 | Mid Sequence | true |  |  | 1621 |
+| 100 | Mid Sequence |  | 100 |  | 41 |
+| 1000 | Mid Sequence |  | 1000 |  | 42 |
+| 10000 | Mid Sequence |  | 10000 |  | 242 |
+| 10000 |  |  |  | true | 2158 |
+| 10000 |  | true |  | true | 2468 |
+| 10000 |  |  | 10000 | true | 1190 |
 
 
 ## _all_docs benchmark 
 | limit| include_docs| keys| Duration (ms) |
 |--|--|--|--|
-| 100 |  |  | 23 |
-| 1000 |  |  | 57 |
-| 10000 |  |  | 299 |
-| 100 | true |  | 32 |
-| 1000 | true |  | 99 |
-| 10000 | true |  | 863 |
-| 10000 |  | true | 1572 |
-| 10000 | true | true | 1953 |
+| 100 |  |  | 49 |
+| 1000 |  |  | 63 |
+| 10000 |  |  | 275 |
+| 100 | true |  | 37 |
+| 1000 | true |  | 103 |
+| 10000 | true |  | 961 |
+| 10000 |  | true | 1780 |
+| 10000 | true | true | 2212 |
 
 
 ## _bulk_get benchmark 
 | count| Duration (ms) |
 |--|--|
-| 100 | 30 |
-| 1000 | 82 |
-| 10000 | 972 |
+| 100 | 31 |
+| 1000 | 87 |
+| 10000 | 1135 |
 
 
 ## view benchmark 
 | limit| include_docs| keys| Duration (ms) |
 |--|--|--|--|
-| indexing |  |  | 126167 |
+| indexing |  |  | 127167 |
 | 100 |  |  | 30 |
-| 1000 |  |  | 53 |
-| 10000 |  |  | 435 |
-| 100 | true |  | 36 |
-| 1000 | true |  | 154 |
-| 10000 | true |  | 1270 |
-| 100 |  | true | 74 |
+| 1000 |  |  | 47 |
+| 10000 |  |  | 346 |
+| 100 | true |  | 42 |
+| 1000 | true |  | 134 |
+| 10000 | true |  | 1247 |
+| 100 |  | true | 82 |
 | 1000 |  | true | 587 |
-| 10000 |  | true | 6067 |
-| 10000 | true | true | 7143 |
+| 10000 |  | true | 6179 |
+| 10000 | true | true | 6989 |
 
 
 ## nouveau_index benchmark 
 | limit| include_docs| keys| Duration (ms) |
 |--|--|--|--|
-| indexing |  |  | 224373 |
-| 100 |  |  | 221 |
-| 1000 |  |  | 537 |
-| 10000 |  |  | 2793 |
-| 100 | true |  | 80 |
-| 1000 | true |  | 466 |
-| 10000 | true |  | 4205 |
-| 100 |  | true | 201 |
-| 1000 |  | true | 637 |
-| 10000 |  | true | 2829 |
-| 10000 | true | true | 4064 |
+| indexing |  |  | 235644 |
+| 100 |  |  | 187 |
+| 1000 |  |  | 535 |
+| 10000 |  |  | 3031 |
+| 100 | true |  | 81 |
+| 1000 | true |  | 511 |
+| 10000 | true |  | 4619 |
+| 100 |  | true | 193 |
+| 1000 |  | true | 1071 |
+| 10000 |  | true | 3007 |
+| 10000 | true | true | 4242 |
 
 
